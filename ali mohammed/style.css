@@ -5,7 +5,7 @@ body{
 
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
@@ -29,6 +29,8 @@ z-index: 2;
 
 
 }
+
+
 
 .container-header{
 
@@ -149,7 +151,7 @@ color: white;
     background-color: transparent;
     width: 350px;
     height: 450px;
-    border: 1px solid #ffffff;
+    border: 5px solid #ffffff;
 
     border-radius: 15px;
     perspective: 1000px;
@@ -209,6 +211,8 @@ color: white;
 
   .flip-card img{
 
+    margin: 5px;
+
     width: 25px;
 
     height: 25px;
@@ -232,4 +236,36 @@ color: white;
 
     
 
-  
+  #footer{
+    
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-evenly;
+    
+  background-color: #4141a4;
+
+  border-radius: 15px;
+
+  width: 203vh;
+
+ height: 100px; 
+
+
+  }
+
+  #footer button{
+
+    display: flex;
+
+    align-items: center;
+
+    height: 15px;
+
+    margin-top: 50px;
+     padding: 15px;
+    border-radius: 15px;
+  }
+
+#top{}
